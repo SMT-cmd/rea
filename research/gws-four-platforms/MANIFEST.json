@@ -1,0 +1,31 @@
+{
+  "kit": "GWS Four-Platform REA Research MVP",
+  "version": "1.0.0",
+  "created_at": "2026-11-10",
+  "fork": "SMT-cmd/rea",
+  "upstream": "morluto/rea",
+  "upstream_license": "MIT",
+  "target": "SMT-cmd/Gwebstore",
+  "competitors": [
+    "Jumia Nigeria",
+    "Bumpa",
+    "Jiji Nigeria",
+    "Shopify"
+  ],
+  "benchmark_records": 34,
+  "gap_records": 22,
+  "evidence": "public official pages + source and read-only production observations; no third-party internal code extracted",
+  "REA_runtime_executed": false,
+  "GWS_live_money_payment_completed": false,
+  "repository_actions_policy": "no GitHub Actions; research-only commit [skip ci]",
+  "files": [
+    "README.md",
+    "BENCHMARK_MATRIX.csv",
+    "GWS_GAP_REGISTER.csv",
+    "SOURCE_EVIDENCE.md",
+    "IMPLEMENTATION_ROADMAP.md",
+    "REA_WORKFLOWS.md",
+    "ACCEPTANCE_CASES.md",
+    "audit_gws.py"
+  ]
+}
